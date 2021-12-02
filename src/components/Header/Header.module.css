@@ -1,0 +1,29 @@
+.headerWrap {
+   width: 100%;
+   height: 3.5rem;
+   border-bottom: 2px solid orange;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 3.5em;
+}
+.headerWrap h1 {
+   font-weight: bold;
+   font-style: italic;
+   color: rgb(44, 206, 125);
+   font-size: 1.5em;
+}
+.headerWrap nav {
+   width: 30em;
+}
+.headerWrap ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.headerUser {
+   font-weight: bold;
+}
+.nav li a {
+   color: #000;
+}

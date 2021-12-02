@@ -1,0 +1,5 @@
+@value colors: "../../assets/css/color.css";
+@value pointColor,colorWhite,colorPurple,colorGreen,colorOrange from colors;
+
+.App {
+}

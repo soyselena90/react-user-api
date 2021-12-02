@@ -1,0 +1,85 @@
+.postcardWrap {
+   position: relative;
+   padding: 1.5em;
+   border: 1px solid #3ef559;
+   margin-bottom: 1.5em;
+   box-shadow: 5px 5px 5px hsl(128, 38%, 82%);
+}
+.postcardcontent {
+   margin-bottom: 1em;
+}
+.postcardcontent em {
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.postcardBody em {
+   width: 100%;
+   display: block;
+   margin-bottom: 0.5em;
+}
+.postcardTitle em {
+   margin-right: 1em;
+}
+.postcardTitle span {
+   font-weight: bold;
+}
+.postcardId,
+.postcardTitle {
+   display: flex;
+}
+.postcardId span {
+   margin-left: 1em;
+   font-weight: bold;
+}
+.commentButton {
+   position: absolute;
+   top: 1em;
+   right: 1em;
+}
+.commentUl {
+   border: 1px solid rgb(153, 209, 100);
+   border-bottom: 0;
+   width: 100%;
+   padding: 0 1em 1em;
+}
+.postCommentInput {
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   position: relative;
+}
+
+.postCommentInput label {
+   font-weight: bold;
+   margin-left: 2.75em;
+}
+.postCommentInput textarea {
+   margin-left: 1.5em;
+   width: 35rem;
+   height: 2.5em;
+   text-indent: 0.5em;
+   padding-top: 0.3em;
+}
+.addComment {
+   display: flex;
+   border: 1px solid rgb(153, 209, 100);
+   border-top: 0;
+   padding: 0 1em 1em;
+}
+.userComment {
+   font-size: 0.9em;
+   font-weight: bold;
+}
+.userComment span {
+   margin-right: 2em;
+}
+.commentError {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: red;
+   font-size: 0.8em;
+   font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.selectedUserWrap {
+   width: 100%;
+   height: 80vh;
+   max-width: 80rem;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.selectedContent {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(248, 248, 248);
+}
+.category {
+   background-color: rgb(238, 237, 237);
+   padding: 1.5em;
+   text-transform: uppercase;
+   font-weight: bold;
+   color: rgb(46, 45, 45);
+}
+.userDetail {
+   padding: 1.5em;
+}
+.selectedTitle {
+   font-size: 2.5rem;
+   text-align: center;
+   border: 2px solid orange;
+   padding: 1em;
+   border-radius: 50%;
+   border-bottom: 2px solid rgb(247, 87, 87);
+   margin-bottom: 1em;
+}
+.selectedContent li {
+   text-align: center;
+   padding: 0.5em;
+}
+
+.selectedBtnWrap {
+   width: 100%;
+   text-align: center;
+   margin-top: 2em;
+}
+
+.loading {
+   font-size: 3rem;
+   text-align: center;
+}

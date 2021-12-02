@@ -1,0 +1,38 @@
+.modalWrap {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.3);
+   z-index: 1;
+}
+.modalContent {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 21.8rem;
+   height: 18rem;
+   border-radius: 8px;
+   border: 5px solid rgb(22, 22, 18);
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+}
+.modlatext {
+   text-align: center;
+   font-size: 1.3em;
+   font-family: "Poppins", sans-serif;
+}
+.modalButtonWrap {
+   width: 100%;
+   margin: 3.5em auto 0;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}

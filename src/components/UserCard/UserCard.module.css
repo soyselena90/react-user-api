@@ -1,0 +1,51 @@
+.cardList {
+   width: 100%;
+   padding: 0.8em 0;
+   transition: 0.7s ease;
+}
+.userCard {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid orange;
+   padding: 0 0.8em;
+   box-shadow: 5px 5px 5px rgb(214, 194, 158);
+}
+.cardList:hover {
+   transform: translate(10px, 10px);
+}
+.userInfo {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   width: 75em;
+   padding: 2.5em 1em;
+}
+.userInfo li {
+   color: #000;
+   padding-left: 0.5em;
+}
+.userInfo li:first-of-type {
+   padding-left: 0;
+   padding-right: 0.5em;
+}
+.userInfo li:nth-of-type(2) {
+   width: 15em;
+}
+.userInfo li:nth-of-type(3) {
+   width: 15em;
+}
+.userInfo li:nth-of-type(4) {
+   width: 20em;
+}
+.userInfo li:nth-of-type(5) {
+   width: 15em;
+}
+.userInfo li:last-of-type {
+   width: 15em;
+}
+
+.userBtnWrap button {
+   text-align: center;
+   width: 100%;
+}

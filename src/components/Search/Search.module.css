@@ -1,0 +1,29 @@
+.searchWrap {
+   position: relative;
+   margin-top: 10em;
+   margin-bottom: 3em;
+   width: 100%;
+   text-align: right;
+   overflow: hidden;
+}
+
+.searchWrap input {
+   border: 1px solid orangered;
+   padding: 0.5em;
+   font-size: 1.1em;
+   width: 30em;
+}
+.searchWrap label {
+   position: absolute;
+   top: 50%;
+   right: 1em;
+   transform: translateY(-50%);
+   color: grey;
+   transition: 0.7s ease;
+}
+.searchWrap input:focus + label {
+   transform: translate(0, 200%);
+}
+.searchContent {
+   list-style: none;
+}

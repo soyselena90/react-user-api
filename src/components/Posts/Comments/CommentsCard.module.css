@@ -1,0 +1,30 @@
+.commentCardWrap {
+   margin-bottom: 0.5em;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-top: 2em;
+   width: 100%;
+   padding-bottom: 0.5em;
+   border-bottom: 1px solid rgb(233, 230, 230);
+   position: relative;
+}
+.commentId {
+   font-weight: bold;
+   width: 23rem;
+   line-height: 1.2;
+}
+.commentId p:last-of-type {
+   font-size: 0.7em;
+   color: rgb(95, 82, 77);
+}
+.commentBody {
+   width: 50rem;
+   font-size: 0.9em;
+   line-height: 1.3;
+}
+.commentCloseButton {
+   position: absolute;
+   top: 0;
+   right: 0;
+}

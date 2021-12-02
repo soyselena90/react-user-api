@@ -1,0 +1,124 @@
+button {
+   font-family: "Poppins", sans-serif;
+}
+
+.mainButton {
+   width: 10rem;
+   font-size: 1.2rem;
+   padding: 0.5em;
+   border-radius: 3em;
+   background-color: #ff5e5e;
+   color: #fff;
+   font-weight: bold;
+   border: 5px solid #fff;
+   transition: 0.5s ease;
+   font-weight: 600;
+}
+.register {
+   font-size: 0.9rem;
+   background-color: transparent;
+   text-transform: uppercase;
+   color: #ff5e5e;
+   font-weight: bold;
+}
+.userCardButton {
+   background-color: #ffcab4;
+   text-transform: uppercase;
+   padding: 0.2em;
+   margin-bottom: 0.5em;
+}
+.userCardButton:hover {
+   background-color: #f3a482;
+}
+
+.selectedButton {
+   text-align: center;
+   margin-left: 0.3em;
+   padding: 1em;
+   border: 2px solid rgb(231, 143, 143);
+}
+
+.formButton {
+   background-color: #be88d3;
+   color: #fff;
+   padding: 0.5em;
+   width: 6rem;
+   text-align: center;
+   margin-top: 2rem;
+}
+.usernameButton {
+   color: rgb(211, 31, 31);
+   padding: 0.5em;
+   font-style: italic;
+   font-size: 0.5em;
+   background-color: transparent;
+   border: 1px solid #000;
+   border-radius: 4px;
+}
+.search {
+   background-color: rgb(32, 185, 255);
+   padding: 0.5em;
+   font-weight: bold;
+   font-size: 1em;
+   margin-left: 0.5em;
+   color: #fff;
+   border: 1px solid blue;
+}
+.modal {
+   background-color: rgb(167, 163, 161);
+   width: 5em;
+   color: #fff;
+   font-size: 1.2em;
+}
+
+.comments {
+   background-color: rgb(247, 225, 184);
+   color: rgb(238, 139, 26);
+   padding: 0.5em;
+   font-weight: bold;
+   border-radius: 4px;
+}
+.addComments {
+   background-color: rgb(194, 243, 190);
+   color: rgb(0, 0, 0);
+   padding: 0.5em 1em;
+   font-weight: bold;
+   margin-left: 1em;
+}
+.deleteComments {
+   background-color: black;
+   color: #fff;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   font-weight: bold;
+}
+.todoDeleteButton {
+   background-color: #fff;
+   color: rgb(233, 116, 95);
+}
+.albumPhotoButton {
+   background-color: #8715b4;
+   color: rgb(253, 253, 252);
+   font-size: 0.8em;
+   padding: 0.5em;
+   font-weight: bold;
+   margin-top: 1.5em;
+}
+.addTodos {
+   border: 2px solid blue;
+   background-color: transparent;
+   padding: 0.5em;
+   font-weight: bold;
+   margin-left: 0.5em;
+}
+.changeTrueButton {
+   position: absolute;
+   top: 50%;
+   right: 0.5em;
+   transform: translateY(-50%);
+   margin-left: 5em;
+   background-color: rgb(168, 105, 226);
+   color: #fff;
+   padding: 0.2em 1em;
+}

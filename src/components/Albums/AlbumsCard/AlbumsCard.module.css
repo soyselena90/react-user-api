@@ -1,0 +1,17 @@
+.albumCardWrap {
+   border: 3px solid #be88d3;
+   padding: 1.5em;
+   width: 80%;
+   height: 15em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+.albumCardWrap p:last-of-type {
+   font-weight: bold;
+   line-height: 2;
+   text-transform: uppercase;
+   margin-top: 1em;
+}
